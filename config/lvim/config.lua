@@ -7,5 +7,6 @@
 vim.opt.tabstop = 4    -- 一个 tab 显示为 4 个空格
 vim.opt.shiftwidth = 4 -- 换行自动缩进4个空格
 
+-- 注意路径开头是个"/"
 package.path = package.path..";/home/acg7878/.config/lvim/?.lua"
 require("my_plugins")
